@@ -25,7 +25,9 @@ public class Filezerfetzung {
             //Hier wird einfach jede Zeile des InputFiles ausgelesen, solange es Zeilen gibt
             String fileInhalt;
             while((fileInhalt = bufferedReader.readLine())!=null){
+                //Hier wird die Zeilennanzahl erhöht
                 zeilen++;
+
                 //Hier wird der Inhalt in das neue File geschrieben
                 printWriter.println(fileInhalt);
             }
